@@ -1,0 +1,56 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"SS Angular Header": {
+		"scope": "html",
+		"prefix": "ss-head",
+		"body": [
+			"<nav class=\"navbar navbar-default\">",
+			"  <div class=\"container-fluid\">",
+			"	<div class=\"navbar-header\">",
+			"	<a href=\"#\" class=\"navbar-brand\">Angular Template</a>",
+			"	</div>",
+			"	<div class=\"collapse navbar-collapse\">",
+			"	<ul class=\"nav navbar-nav\">",
+			"		<li><a href=\"#\">MenuItem 1</a></li>",
+			"		<li><a href=\"#\">MenuItem 2</a></li>",
+			"	</ul>",
+			"	<ul class=\"nav navbar-nav navbar-right\">",
+			"		<li class=\"dropdown\">",
+			"		<a class=\"dropdown-toggle\" href=\"#\" role=\"button\">DropDown Menu <span class=\"caret\"></span></a>",
+			"		<ul class=\"dropdown-menu\">",
+			"			<li><a href=\"#\"></a>Dropdown Item 1</li>",
+			"			<li><a href=\"#\"></a>Dropdown Item 2</li>",
+			"		</ul>",
+			"		</li>",
+			"	</ul>",
+			"	</div>",
+			"  </div>",
+			"</nav>"
+		]
+	},
+	"SS CORS": {
+		"scope": "javascript",
+		"prefix": "ss-cors",
+		"body": [
+			"res.header(\"Access-Control-Allow-Origin\", \"http://localhost:4200\");",
+			"res.header(\"Access-Control-Allow-Headers\",\"Origin, X-Requested-With,Context-Type,Accept\");"
+		]
+	}
+
+  
+}
